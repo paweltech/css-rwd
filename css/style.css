@@ -26,7 +26,7 @@ header {
         position: absolute;
         width: 100%;
         height: 100%;
-        background-size: cover;
+        
        
         
         
@@ -56,7 +56,7 @@ header {
         background-image: url('../man-2.jpg');
         background-size: 100% 70%;
         background-repeat: no-repeat;
-        background-size: cover;
+        
         
     }
     header {
@@ -70,7 +70,8 @@ header {
 @media (min-width:1171px) {
     body {
         background-image: url('../man-1.jpg');
-        background-size: cover;
+        background-size: contain;
+        
     }
     header {
         position: absolute;
